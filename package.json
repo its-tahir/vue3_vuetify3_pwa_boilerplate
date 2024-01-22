@@ -1,0 +1,34 @@
+{
+    "name": "vue3-vuetify3",
+    "author": "its-tahir",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "vite build && firebase deploy --only hosting"
+    },
+    "dependencies": {
+        "@mdi/font": "7.0.96",
+        "core-js": "^3.8.3",
+        "roboto-fontface": "*",
+        "uuid": "9.0.0",
+        "vue": "^3.2.38",
+        "vue-router": "^4.1.6",
+        "vuetify": "^3.0.0",
+        "webfontloader": "^1.0.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.3",
+        "@vue/cli-plugin-pwa": "~5.0.0",
+        "@vue/cli-plugin-router": "~5.0.0",
+        "@vue/cli-plugin-vuex": "~5.0.0",
+        "sass": "^1.32.7",
+        "sass-loader": "^12.0.0",
+        "vite": "^3.1.9",
+        "vite-plugin-pwa": "^0.14.4",
+        "vite-plugin-vuetify": "^1.0.0-alpha.12",
+        "vue-template-compiler": "^2.6.14"
+    }
+}
